@@ -1,0 +1,23 @@
+
+Pasos para visualizar la pagina web:
+
+1...Meterte en tu editor de mysql y introducir la base de datos que se encuentra en libraries/createTables.sql
+
+2...El usuario por defecto que esta metido en el código es root con contraseña 275345, no se ha introducido la creación de usuario en createTables ya que 
+garantizar los permisos cambia en función de el editor de mysql que estemos utilizando si es uno estándar de consola, y no visual bastará con escribir:
+
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON EQV.* TO 'newuser'@'localhost';
+
+
+
+    Leyendome los enlaces que me mandaste por el correo, al final he puesto los autores visibles para aumentar la competitividad.
+
+
+
+.   Redireccion al perfil de autores al pinchar en ellos
+.   Vista de los autores al completo igual que la de los articulos que sea ordenable e interactiva
+.   Categorizacion de las ideas en diferentes clases para asi poderlas clasificar y tener un acceso a lo que especificamente queremos
+.   Mejorar la presentacion de los rankings con algún elemento más visual y animado
+.   Ir poniendo la valoracion en un elemento más visual que un numero por ejemplo un número de estrellas
+.   

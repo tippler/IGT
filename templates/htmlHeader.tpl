@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>Ideas generator</title>
+		<link rel="stylesheet" type="text/css" href="./style/homepage1.css">
+	</head>
+	
+	<body >
+		
+		<div id = "container">
+		
+			<!--Inicio cabecera-->
+			<div id="header" class="titulos">
+				<a href="index.php"> <h1> Generator tool</h1>
+			</div>
+			<div class="clear"></div>
+		<!--Fin cabecera-->
+			<div id="contenido">
+			
+				
+				<div  id="headpicture">
+					  <img src="./images/banner.jpg">
+
+				</div>
+				<div class="clear"></div>
+				<div id="login_search">
+					<div id="acceso">
+						<a href="index.php?login=1" ><img src="./images/perfil.png" alt="user"  width="22" height="22"></a>
+						
+						<a id="acceder" href="index.php?login=1.php" >
+						<!--
+
+					</div>
+					<div id="search">
+						<form name="input" action="">
+							<input type="text" class="searchbox" name="busqueda">
+							<input type="submit" value="Buscar">
+						
+						</form>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+				<div id="barra_lateral">				
+
+					<div class="menu">
+						<ul>
+							<li><a href="./index.php">Home</a></li>
+						</ul>
+					</div>
+					
+
+					
+					<div class="menu" id="menu_Categorias">
+						
+						<ul>
+							<li class="tituloMenu">Categories</li>
+							
+							<li>
+							  <a href="./index.php">Acommodation</a>
+							 
+							  <ul > 
+							    <li><a href="./index.php?viewCat=Hotel">Hotel</a></li>
+							    <li><a href="./index.php?viewCat=Hostel">Hostel</a></li>
+							    <li><a href="./index.php?viewCat=Motel">Motel</a></li> 
+							  </ul>
+							
+							</li>
+							  
+							
+							<li><a href="./index.php?viewCat=Restaurant">Restaurants</a></li>
+							<li><a href="./index.php?viewCat=Interesting">Interesting places</a></li>
+							<li><a href="./index.php?viewCat=Reports">Reports</a></li>
+						</ul>
+					</div>
+
+					
+
+					<div class="menu" id="menu_Entradas">
+						<ul>
+							<li class="tituloMenu">Articles</li>
+							<li><a href="./index.php?viewOp=1">Recent articles</a></li>
+							<li><a href="./index.php?viewOp=2">Most rated</a></li>
+							<li><a href="./index.php?viewOp=3">With more coments</a></li>
+						</ul>
+					</div>
+					
+
+				</div>
+				
+
+				-->
+			    <!--</div>
+			</div>
+			<div id=\"footer\" class=\"titulos\">
+			</div>
+		</div> 
+	</body> 
+</html>"); -->

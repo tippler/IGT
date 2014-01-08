@@ -1,0 +1,18 @@
+ <?php
+ function inicialize(){
+  include 'libraries/databaseQueries.php';
+  include 'libraries/storageFunctions.php';
+  include 'libraries/outputFunctions.php';
+  include 'libraries/resumeFunctions.php';
+  require_once 'object/article.php';
+  require_once 'object/user.php';
+  require_once 'object/comment.php';
+  require_once 'input.php';
+  require_once 'requireData.php';
+  require_once 'calculations.php';
+  require_once 'output.php';
+  session_start();
+  $link=openDatabase("root","275345","EQV"); 
+  return $link;
+  }
+  ?>
